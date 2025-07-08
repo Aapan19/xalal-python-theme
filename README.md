@@ -31,5 +31,25 @@ To enjoy full experience, add this to your `settings.json`:
     "scrollbarSlider.hoverBackground": "#aaa6",
     "scrollbarSlider.activeBackground": "#bbb9",
     "sideBar.background": "#1e1e1e80"
-  }
+  },
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.name.function", // Function/method names
+          "entity.name.method", // Method names
+          "variable.parameter.function.language.special.self.python", // Python 'self' keyword
+          "storage.type.function.python", // def 
+          "storage.type.class.python", // class
+          "support.type.python",
+          "keyword.control.flow.python"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
 }
+
+
