@@ -30,9 +30,8 @@ To enjoy full experience, add this to your `settings.json`:
     "scrollbarSlider.background": "#9994",
     "scrollbarSlider.hoverBackground": "#aaa6",
     "scrollbarSlider.activeBackground": "#bbb9",
-    "sideBar.background": "#1e1e1e80"
-  },
-"editor.tokenColorCustomizations": {
+    "sideBar.background": "#1e1e1e80",
+  "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
@@ -51,5 +50,5 @@ To enjoy full experience, add this to your `settings.json`:
     ]
   },
 }
-
+}
 
